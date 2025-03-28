@@ -1,0 +1,91 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>예스 24</title>
+        <link rel="stylesheet" href="./home2.css">
+    </head>
+    <body>
+
+        <!-- 전체 감싸는 거 -->
+        <div class="wrap">
+            <!-- 헤더 -->
+            <header>
+                <img src="./img/logo.png" alt="로고">
+                <span>로그인</span>
+                <button type="button">회원가입</button>
+            </header>
+            <!-- 본문 -->
+                <div class="con-box">
+                    <!-- 본문 좌측 영역 -->
+                    <section class="main-left">
+                    
+                        <button type="button">회원</button><button type="button">비회원 주문확인</button>
+                    
+                        <form>
+                            <input class="id" type="text" name="아이디" placeholder="아이디"><br>
+                            <input class="pass" type="password" name="비밀번호"placeholder="비밀번호"><br>
+                        </form>
+                        <input id="login" type="checkbox" name="login">    
+                        <label for="login">로그인 상태 유지</label>
+                        
+                        <input id="id" type="checkbox" name="id">
+                        <label for="id">아이디 저장</label><br>
+            
+                        <button>로그인</button><br>
+                        <!-- 아이디, 비밀번호 찾기 -->
+                        <button>아이디 찾기</button> | <button>비밀번호 찾기</button><br>
+                        <!-- 소셜미디어로 로그인 -->
+                        <ul class="loginSo">
+                        <a class="naver">
+                        <img src="./img/naver2.png" alt="네이버 아이디로 로그인">
+                        <button>네이버 아이디로 로그인</button><br>
+                        </a>
+                        <a class="kakao">
+                        <img src="./img/kakao2.png" alt="카카오 아이디로 로그인">
+                        <button>카카오 아이디로 로그인</button><br>
+                        </a>
+                        <a class="face">
+                        <img src="./img/face.png" alt="페이스북 아이디로 로그인">
+                        <button>페이스북 아이디로 로그인</button><br>
+                        </a>
+                        <a class="mobile">
+                        <img class="mi" src="./img/mobile.png" alt="모바일 간편 로그인">
+                        <button>모바일 간편 로그인</button>
+                        </a>
+                        </ul>
+                    
+                        <!-- <div class="so">
+                            <a>
+                            <button>네이버 아이디로 로그인</button>
+                            </a>
+                            <br />
+                            <a>
+                            <button>카카오 아이디로 로그인</button>
+                            </a>
+                            <br />
+                            <a>
+                            <button>페이스북 아이디로 로그인</button>
+                            </a>
+                            <br />
+                            <a>
+                            <button>모바일 간편 로그인</button>
+                            </a>
+                        </div> -->
+                    </section>
+                    <!-- 본문 우측 영역 -->
+                    <aside class="main-right">
+                    <img src="./img/right1.jpg" alt="상품권" class="gift">
+                    <img src="./img/right2.jpg" alt="반 고흐" class="go">
+                    </aside>
+                </div>
+                <!-- 하단 이미지 -->
+                <img src="./img/foot.gif" alt="하단 이미지" class="foot_img">
+                <footer class="foot">
+                    <p>Copyright © <strong> YES24 Corp.</strong> All Rights Reserved.</p>
+                </footer>
+        </div>
+    </body>
+    </html>
+

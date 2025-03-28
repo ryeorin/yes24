@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+wrap{
+    color:#555555;
+}
+
+body{
+    width:960px;
+    margin:0 auto;
+}
+header {
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:960px;
+    height:100px;
+}
+
+header img{
+    width: 125px;
+    height: 100px;
+}
+
+header > span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+header> button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border:none;
+    /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); */
+}
+/* 가운데 박스 직접 생성성 */
+.con-box{
+    display: flex;
+    padding:60px 40px;
+
+    border: 1px solid gray;
+    justify-content: space-between;
+}
+/* .main-left{
+    width:360px;
+    max-width: 400px;
+    margin:10px auto;
+    text-align: center;
+} */
+
+/* 회원, 비회원 주문 */
+.main-left button:nth-child(1){
+    flex-direction: column;
+    color:#6699cc;
+    text-align: center;
+    padding:10px 20px;
+    display: inline-block;
+    margin:0;
+    cursor: pointer;
+    width:180px;
+}
+
+
+.main-left button:nth-child(2){
+    margin:0;
+    text-align: center;
+    padding:10px 20px;
+    display: inline-block;
+    width:180px;
+}
+
+.main-left button:nth-of-type(3){
+    margin-top: 20px;
+    background-color: #0080FF;
+    color:white;
+    display: inline-block;
+    padding: 20px 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 360px;
+}
+
+.id {
+    margin-top: 10px;
+    width:360px;
+    height: 50px;
+}
+
+.pass{
+    margin-top: 5px;
+    width: 360px;
+    height: 50px;
+}
+
+.main-left button:nth-of-type(4){
+    border:none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/* 소셜미디어 로그인 버튼 */
+.loginSo .naver button{
+    background-color: white;
+    width:330px;
+    margin-top: 50px;
+    border-color: azure;
+    margin-left: 30px;
+}
+
+.loginSo .kakao button{
+    background-color: white;
+    width:330px;
+    margin-top: 5px;
+    border-color: azure;
+    margin-left: 30px;
+}
+
+.loginSo .face button{
+    background-color: white;
+    width:330px;
+    margin-top: 5px;
+    border-color: azure;
+    margin-left: 30px;
+}
+
+.loginSo .mobile button{
+    background-color: white;
+    width:330px;
+    margin-top: 5px;
+    border-color: azure;
+    margin-left: 30px;
+}
+
+.mi{
+    width:38px;
+    height: 38px;
+
+}
+
+
+/* main 오른른쪽 그림 */
+.gift{
+    width:360px;
+    /* margin-left: auto; */
+    display: block;
+    /* align-self: flex-end; */
+
+}
+
+.go{
+    margin-top: 10px;
+}
+
+/* 하단 */
+.foot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.foot_img{
+    margin-top:20px;
+    width:960px;
+    height:60px;
+}
